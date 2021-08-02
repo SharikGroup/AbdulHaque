@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ii. Add local settings & run migrations
 
-Add ```supplyr/settings_local.py``` with following contents:
+Add ```core/settings_local.py``` with following contents:
 ```python
 from .settings import *
 
