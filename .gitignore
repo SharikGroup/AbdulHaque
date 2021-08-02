@@ -1,3 +1,5 @@
 .venv/*
 env/*
 core/settings_local.py
+**/*.pyc
+**/__pycache__/*
