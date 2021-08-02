@@ -32,7 +32,7 @@ DATABASES['default']['PASSWORD'] = 'dbpasss'
 
 iii. Create a database named `zhcet_iss` in your database shell:
 ```sql
-CREATE DATABASE supplyr CHARACTER SET utf8mb4;
+CREATE DATABASE zhcet_iss CHARACTER SET utf8mb4;
 ```
 
 iv. Run in shell to create tables
