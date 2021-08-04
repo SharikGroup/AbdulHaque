@@ -1,0 +1,25 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Icons {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<!-- Header -->
+    <div class=" bg-gradient-primary pb-7 pt-5 pt-md-8">
+    </div>
+    
+    <div class="container-fluid mt--8">
+
+    {% block page_content %}{% endblock page_content %}
+
+      {% include "includes/footer.html" %}
+
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}
