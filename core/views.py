@@ -1,4 +1,4 @@
 from django.views.generic import TemplateView
 
 class TestView(TemplateView):
-    template_name = 'tables.html'
+    template_name = 'blank.html'
